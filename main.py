@@ -14,7 +14,7 @@ import asyncio
 from PIL import Image
 from config import Config
 from pyromod import listen
-from pyrogram import Client, filters
+from pyrofork import Client, filters
 from helpers.markup_maker import MakeButtons
 from helpers.streamtape import UploadToStreamtape
 from helpers.clean import delete_all
