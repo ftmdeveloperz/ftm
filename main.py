@@ -12,7 +12,7 @@ import psutil
 import random
 import asyncio
 from PIL import Image
-from configs import Config
+from config import Config
 from pyromod import listen
 from pyrogram import Client, filters
 from helpers.markup_maker import MakeButtons
